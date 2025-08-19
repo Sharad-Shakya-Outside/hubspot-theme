@@ -21,3 +21,10 @@
 .grid-card__card-figure figcaption {
   margin-top: 0.25rem;
 }
+
+.grid-card__card-cta {
+  font-size: 0.5rem;
+  line-height: 1;
+  color: #85bb50;
+  margin-top: 1rem;
+}
