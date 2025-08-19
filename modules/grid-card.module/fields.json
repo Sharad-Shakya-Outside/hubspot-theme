@@ -1,0 +1,58 @@
+[ {
+  "id" : "548288e2-f132-1646-2ae9-8f7ca3e8c144",
+  "name" : "heading",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "Enter the title of the module",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : ""
+}, {
+  "id" : "ab88d031-981c-cda9-ff74-8c23cb58b034",
+  "name" : "card",
+  "label" : "Card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "7c56f9f2-0e5b-3e29-cb44-32d8f2227e7a",
+    "name" : "card_image",
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "e0d4e04f-1171-322c-ffca-cb51b396bc4c",
+    "name" : "card_caption",
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "placeholder" : "Enter the caption for the image",
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

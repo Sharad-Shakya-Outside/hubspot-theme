@@ -1,0 +1,23 @@
+.grid-card {
+  color: #DEDEDE;
+}
+
+.grid-card__cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-card__card {
+  background: #5a547e;
+}
+
+.grid-card__card-figure img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.grid-card__card-figure figcaption {
+  margin-top: 0.25rem;
+}

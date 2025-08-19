@@ -1,0 +1,16 @@
+<section class="grid-card">
+    <h1>
+        {{ module.heading }}
+    </h1>
+
+    <div class="grid-card__cards">
+        {% for card in module.card %}
+            <div class="grid-card__card">
+                <figure class="grid-card__card-figure">
+                    <img src={{ card.card_image.src }} alt={{ card.card_image.alt }}>
+                    <figcaption>{{ card.card_caption }}</figcaption>
+                </figure>
+            </div>
+        {% endfor %}
+    </div>
+</section>
