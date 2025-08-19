@@ -14,23 +14,9 @@
   "responsive_breakpoints": [
     {
       "name": "mobile",
-      "mediaQuery": "@media (max-width: 390px)",
+      "mediaQuery": "@media (max-width: 767px)",
       "previewWidth": {
-        "value": 390
-      }
-    },
-    {
-      "name": "tablet",
-      "mediaQuery": "@media (max-width: 768px)",
-      "previewWidth": {
-        "value": 768
-      }
-    },
-    {
-      "name": "tablet-wide",
-      "mediaQuery": "@media (max-width: 1024px)",
-      "previewWidth": {
-        "value": 1024
+        "value": 477
       }
     }
   ]
